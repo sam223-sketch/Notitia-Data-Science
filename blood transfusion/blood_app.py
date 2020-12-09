@@ -100,11 +100,3 @@ if st.checkbox('Conclusion'):
     
 
 
-
-# Visualize Confusion Matrix
-
-# viz = sns.heatmap(cm, annot=True)
-
-# if st.checkbox('Visualize Confusion Matrix'):
-    
-#     st.pyplot(viz)
