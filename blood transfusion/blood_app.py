@@ -20,7 +20,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.title('Blood Transfusion Predictor..')
 
-DATA_URL = (r'C:\Users\Sam\Desktop\Notitia Project\Notitia-Data-Science\project\blood transfusion\transfusion.csv')
+DATA_URL = ('https://raw.githubusercontent.com/sam223-sketch/Notitia-Data-Science/main/blood%20transfusion/transfusion.csv')
 
 @st.cache(persist=True)
 def load_data():
